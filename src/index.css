@@ -34,7 +34,9 @@ code {
 .icon {
   height: 50px;
   width: 50px;
+  border: black solid 1px;
   margin: 10px;
+  background: beige;
 }
 
 .window {
