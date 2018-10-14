@@ -17,6 +17,12 @@ code {
   height: 100vh;
 }
 
+.desktop-icons {
+  font-size: 50px;
+  color: #007eca;
+  outline-color: aliceblue;
+}
+
 .icons {
   display: flex;
   flex-direction: column;
@@ -28,14 +34,18 @@ code {
 .icon {
   height: 50px;
   width: 50px;
-  border: black solid 1px;
   margin: 10px;
-  background: beige;
 }
 
 .window {
   border: black 1px solid;
   background: bisque;
+}
+
+.window-header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 2px;
 }
 
 /* #icon-1 {
@@ -115,4 +125,18 @@ code {
 .right-menu {
   display: flex;
   flex-direction: row;
+}
+
+.start-menu-icon {
+  font-size: 40px;
+  color: orange;
+}
+
+.menu-bar-icon {
+  font-size: 35px;
+  color: bisque;
+}
+
+.clock {
+  font-size: 30px;
 }

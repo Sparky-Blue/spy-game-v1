@@ -1,10 +1,13 @@
 import React from "react";
 import Draggable from "react-draggable";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const Icon = ({ name, position }) => {
+const Icon = ({ draggable, position, icon, classStyle }) => {
   return (
-    <Draggable>
-      <div className={`icon icon-${position}`}>{name}</div>
+    <Draggable disabled={!draggable}>
+      <div className={`icon icon-${position}`}>
+        <FontAwesomeIcon icon={icon} className={classStyle} />
+      </div>
     </Draggable>
   );
 };
