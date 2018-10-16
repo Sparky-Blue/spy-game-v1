@@ -12,3 +12,131 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.desktop {
+  height: 100vh;
+}
+
+.desktop-icons {
+  font-size: 50px;
+  color: #007eca;
+  outline-color: aliceblue;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  height: 95vh;
+}
+
+.icon {
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+}
+
+.window {
+  border: black 1px solid;
+  background: bisque;
+}
+
+.window-header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 2px;
+}
+
+/* #icon-1 {
+  grid-area: 1 2 1 2;
+}
+
+#icon-2 {
+  grid-area: 4 2 6 2;
+}
+
+#icon-3 {
+  grid-column-start: 3;
+}
+
+#icon-4 {
+  grid-area: 1 4 1 4;
+}
+
+#icon-5 {
+  grid-area: 1 5 1 5;
+}
+
+#icon-1 {
+  grid-area: 1 1 1 1;
+}
+
+#icon-1 {
+  grid-area: 1 1 1 1;
+}
+
+#icon-1 {
+  grid-area: 1 1 1 1;
+}
+
+#icon-1 {
+  grid-area: 1 1 1 1;
+}
+
+#icon-1 {
+  grid-area: 1 1 1 1;
+}
+
+#icon-1 {
+  grid-area: 1 1 1 1;
+}
+
+#icon-1 {
+  grid-area: 1 1 1 1;
+}
+
+#icon-1 {
+  grid-area: 1 1 1 1;
+} */
+
+.menu-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #007eca;
+  opacity: 0.5;
+  height: 50px;
+  transition: opacity 1s;
+}
+
+.menu-bar:hover {
+  opacity: 0.9;
+}
+
+.left-menu {
+  display: flex;
+  flex-direction: row;
+}
+
+.right-menu {
+  display: flex;
+  flex-direction: row;
+}
+
+.start-menu-icon {
+  font-size: 40px;
+  color: orange;
+}
+
+.menu-bar-icon {
+  font-size: 35px;
+  color: bisque;
+}
+
+.clock {
+  font-size: 30px;
+}
