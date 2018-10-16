@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Icons from "./icons/Icons";
 import MenuBar from "./menu/MenuBar";
+import Scratchpad from "./Scratchpad";
 import Window from "./windows/Window";
 import background from "../images/desktop.jpg";
 
@@ -13,6 +14,7 @@ class Desktop extends Component {
       >
         <Icons />
         <Window />
+        <Scratchpad />
         <MenuBar />
       </div>
     );
